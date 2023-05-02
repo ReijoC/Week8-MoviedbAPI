@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    color: #777;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.movie-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.movie-genres {
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.movie-poster-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.movie-poster-container img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.movie-info-container {
+    flex: 2;
+}
+
+.movie-info-quote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.movie-info-overview-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.movie-info-overview {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.movie-info-actions ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.movie-info-actions ul li {
+    margin-right: 10px;
+}
+
+.movie-info-actions ul li a {
+    color: #777;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer ul li a i {
+    margin-left: 5px;
+}
